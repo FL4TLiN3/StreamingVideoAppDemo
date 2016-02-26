@@ -8,13 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		24F49CEF1C8018680062B45A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F49CEE1C8018680062B45A /* AppDelegate.swift */; };
-		24F49CF11C8018680062B45A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F49CF01C8018680062B45A /* MasterViewController.swift */; };
-		24F49CF31C8018680062B45A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F49CF21C8018680062B45A /* DetailViewController.swift */; };
 		24F49CF61C8018680062B45A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F49CF41C8018680062B45A /* Main.storyboard */; };
 		24F49CF81C8018680062B45A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F49CF71C8018680062B45A /* Assets.xcassets */; };
-		24F49CFB1C8018680062B45A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F49CF91C8018680062B45A /* LaunchScreen.storyboard */; };
 		24F49D061C8018680062B45A /* VideoAppDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F49D051C8018680062B45A /* VideoAppDemoTests.swift */; };
 		24F49D111C8018680062B45A /* VideoAppDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F49D101C8018680062B45A /* VideoAppDemoUITests.swift */; };
+		24F49D1F1C8056220062B45A /* SampleVideo_1280x720_1mb.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 24F49D1E1C8056220062B45A /* SampleVideo_1280x720_1mb.mp4 */; };
+		24F49D211C8057350062B45A /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F49D201C8057350062B45A /* VideoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +36,8 @@
 /* Begin PBXFileReference section */
 		24F49CEB1C8018680062B45A /* VideoAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F49CEE1C8018680062B45A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24F49CF01C8018680062B45A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		24F49CF21C8018680062B45A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		24F49CF51C8018680062B45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24F49CF71C8018680062B45A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		24F49CFA1C8018680062B45A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24F49CFC1C8018680062B45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24F49D011C8018680062B45A /* VideoAppDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoAppDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F49D051C8018680062B45A /* VideoAppDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAppDemoTests.swift; sourceTree = "<group>"; };
@@ -49,6 +45,8 @@
 		24F49D0C1C8018680062B45A /* VideoAppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoAppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24F49D101C8018680062B45A /* VideoAppDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoAppDemoUITests.swift; sourceTree = "<group>"; };
 		24F49D121C8018680062B45A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24F49D1E1C8056220062B45A /* SampleVideo_1280x720_1mb.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SampleVideo_1280x720_1mb.mp4; sourceTree = "<group>"; };
+		24F49D201C8057350062B45A /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +98,10 @@
 			isa = PBXGroup;
 			children = (
 				24F49CEE1C8018680062B45A /* AppDelegate.swift */,
-				24F49CF01C8018680062B45A /* MasterViewController.swift */,
-				24F49CF21C8018680062B45A /* DetailViewController.swift */,
+				24F49D201C8057350062B45A /* VideoViewController.swift */,
 				24F49CF41C8018680062B45A /* Main.storyboard */,
+				24F49D1E1C8056220062B45A /* SampleVideo_1280x720_1mb.mp4 */,
 				24F49CF71C8018680062B45A /* Assets.xcassets */,
-				24F49CF91C8018680062B45A /* LaunchScreen.storyboard */,
 				24F49CFC1C8018680062B45A /* Info.plist */,
 			);
 			path = VideoAppDemo;
@@ -232,7 +229,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24F49CFB1C8018680062B45A /* LaunchScreen.storyboard in Resources */,
+				24F49D1F1C8056220062B45A /* SampleVideo_1280x720_1mb.mp4 in Resources */,
 				24F49CF81C8018680062B45A /* Assets.xcassets in Resources */,
 				24F49CF61C8018680062B45A /* Main.storyboard in Resources */,
 			);
@@ -259,8 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24F49CF31C8018680062B45A /* DetailViewController.swift in Sources */,
-				24F49CF11C8018680062B45A /* MasterViewController.swift in Sources */,
+				24F49D211C8057350062B45A /* VideoViewController.swift in Sources */,
 				24F49CEF1C8018680062B45A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,14 +299,6 @@
 				24F49CF51C8018680062B45A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		24F49CF91C8018680062B45A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				24F49CFA1C8018680062B45A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
